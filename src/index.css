@@ -3,9 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root{
+
+  --recipe--green: #28947F;
+
+}
 body{
-  background-color: #28947F;
-  color: #FEE231;
+  background-color: #e5ecc5;
+  color: #534c19;
 }
 
 h2{
@@ -13,6 +19,15 @@ h2{
   padding: 5rem;
 }
 
+a{
+  text-decoration: none;
+  padding:1.5rem;
+
+  &.active{
+
+    text-decoration: underline;
+  }
+}
 
 .container{
   
@@ -24,6 +39,11 @@ h2{
 
   padding-top: 1.5rem;
 }
+
+.row{
+
+  flex-direction: column;
+}
 .form-control{
 
   padding: 0.5rem;
@@ -33,7 +53,7 @@ h2{
   margin-left: 0.3rem;
   width: 50px;
   padding: 0.2rem;
-  background-color:#C2CD4B;
+  background-color:#82864f;
   color: white;
   border-radius: 10px;
 }
@@ -69,6 +89,6 @@ p {
   text-align: justify;
   line-height: 1.6; 
   margin: 0 1rem; 
-  color: #f0e8b5;
+  color: #55502e;
 }
 
