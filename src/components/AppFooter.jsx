@@ -2,7 +2,8 @@ export default function AppFooter(){
 
     return(
 
-        <p>copyrygth 2024</p>
+        
+        <p className='app_footer'>copyrygth 2024</p>
 
     )
 }
