@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 
 export default function MainMenu(){
 
+    return(
+
     <nav>
 
         <NavLink to="/">Home</NavLink>
@@ -10,4 +12,5 @@ export default function MainMenu(){
         <NavLink to="/about">Chi Siamo</NavLink>
         
     </nav>
+    )
 }
