@@ -4,6 +4,7 @@ import Posts from './pages/Posts.jsx'
 
 import About from './pages/About.jsx'
 import DefaultLayout from './pages/DefaultLayout.jsx'
+import AddNewPost from './pages/AddNewPosts.jsx'
 
 import './App.css'
 
@@ -29,11 +30,12 @@ function App() {
 
         <Route path="/posts"> {/*rotta per solo i post*/}
           <Route index element={<Posts />} />
-          <Route path='newpost' element={<AddNewPost />} />
-          <Route path=':slug/' element={<Postpage />} />
+          
+          {/*<Route path=':slug/' element={<Postpage />} />*/}
         
         
         </Route>
+        <Route path='/newpost' element={<AddNewPost />} />
       </Routes>
 
 
