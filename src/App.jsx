@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import Posts from './pages/Posts.jsx'
+import PostPage from './pages/PostPage.jsx'
 
 import About from './pages/About.jsx'
 import DefaultLayout from './pages/DefaultLayout.jsx'
@@ -31,10 +32,10 @@ function App() {
         <Route path="/posts"> {/*rotta per solo i post*/}
           <Route index element={<Posts />} />
           
-          {/*<Route path=':slug/' element={<Postpage />} />*/}
-        
+          <Route path=':slug/' element={<PostPage />} />
         
         </Route>
+
         <Route path='/newpost' element={<AddNewPost />} />
       </Routes>
 
