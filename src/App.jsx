@@ -25,6 +25,15 @@ function App() {
           <Route path="/posts" element={<Posts />}> Posts</Route>
           <Route path="/about" element={<About />}> Chi Siamo</Route>
         </Route>
+
+
+        <Route path="/posts"> {/*rotta per solo i post*/}
+          <Route index element={<Posts />} />
+          <Route path='newpost' element={<AddNewPost />} />
+          <Route path=':slug/' element={<Postpage />} />
+        
+        
+        </Route>
       </Routes>
 
 

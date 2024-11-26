@@ -11,7 +11,7 @@
 }
 body{
   background-color: #e5ecc5;
-  color: #534c19;
+  
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,13 +24,20 @@ a{
   text-decoration: none;
   padding:1.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  color:  #534c19;
+  color:  #eeecdd;
 
   &.active{
 
     text-decoration: underline;
     font-size: 18px;
   }
+}
+header{
+
+  background-color: #28947F;
+  padding: 4rem;
+  margin-bottom: 2rem;
+
 }
 
 .container{

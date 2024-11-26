@@ -8,12 +8,14 @@ export default function AppHeader(){
 
 
         <>
+        <header>
         <div className="app_header">
             <div className="container">
-                <h1>MY RECIPES</h1>
+                <h1>Blog</h1>
                 <MainMenu />
             </div>
         </div>
+        </header>
         
         
         

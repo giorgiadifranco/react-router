@@ -68,7 +68,7 @@ console.log(articles);
                         </p>
                         </div>
                     </div>
-                    )): <p>No reslts yet</p>} 
+                    )): <p>No results yet</p>} 
                     
                     
                 </div>
